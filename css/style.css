@@ -59,7 +59,7 @@ a:hover {
 ============================ */
 .navbar-brand {
   float: left;
-  height: 50px;
+  height: 100%;
   padding: 15px 15px;
   font-size: 18px;
   line-height: 20px;
@@ -109,26 +109,26 @@ a:hover {
 
 .nav-tabs > li > a {	
 	border-radius:0;
-	color:#fff;
+	color:#818181;
 	padding:30px;
 }
 
 .nav-tabs > li > a:hover {
-	color:#272727;
-	background:#fff;	
+	color:#fff;
+	background:#2dbec9;	
 } 
 
 .nav-tabs > li a.active {
-	color: #555;
+	color: #fff;
 	cursor: default;
-	background-color: #fff;
-	border: 1px solid #fff;
-	border-bottom-color:#fff;
+	background-color: #2dbec9;
+	/*border: 1px solid #fff;
+	border-bottom-color:#fff;*/
 }
 
 .navbar-default {
-	background-color: #65AAF0;
-	border-color:#F065EA;
+	background-color: #ffdb77;
+	border-color:#2dbec9;
 }
 
 /*===========================
@@ -762,6 +762,7 @@ ul.social_icons li  a i{
 
 figure.effect-marley img {
 	margin: 15px 0;
+        -webkit-filter: brightness(90%)
 }
 
 
@@ -1044,7 +1045,11 @@ ul.social-network {
 .sub-footer  {
 	background:#272727;
 	padding:25px 20px 15px 20px;
-        border-top: #F065EA solid 4px;
+        border-top: #2dbec9 solid 4px;
+}
+
+.sub-footer h4 {
+	color:#fff;
 }
 
 ul.social-network li {
@@ -1100,7 +1105,7 @@ ul.social-network li a {
 
 #program {
     color: #838181;
-    margin: 40px 0 50px 0;
+    margin: 40px 10px 50px 10px;
 }
 
 .video_container {
@@ -1140,4 +1145,14 @@ ul.social-network li a {
 
 .txt_companies a {
     color: #337ab7;
+}
+
+#img_program {
+    text-align:center;
+    vertical-align:middle;
+}
+
+#img_program img {
+    width: 100%;
+    padding: 45px 10px 0 10px;
 }
